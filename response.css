@@ -1,0 +1,167 @@
+@media all {
+    #homeNav {
+        grid-column: 1;
+        grid-row: 1;
+        padding: 5px;
+    }
+
+    #archeologieNav {
+        grid-column: 1;
+        grid-row: 2;
+        padding: 5px;
+    }
+
+    #backpackNav {
+        grid-column: 1;
+        grid-row: 3;
+        padding: 5px;
+    }
+
+    #bergNav {
+        grid-column: 1;
+        grid-row: 4;
+        padding: 5px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    #homeNav {
+        padding: 5px;
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    #archeologieNav {
+        padding: 5px;
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    #backpackNav {
+        padding: 5px;
+        grid-row: 1;
+        grid-column: 3;
+    }
+
+    #bergNav {
+        padding: 5px;
+        grid-row: 1;
+        grid-column: 4;
+    }
+
+    #box1{
+        padding: 5px;
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    #box2{
+        padding: 5px;
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    #box3{
+        padding: 5px;
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    #box4{
+        padding: 5px;
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    #boxNext{
+        padding: 5px;
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    #boxPrevious{
+        padding: 5px;
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    #box5{
+        padding: 5px;
+        grid-row: 5;
+        grid-column: 1;
+        grid-column-end: 3;
+    }
+
+    #box6{
+        padding: 5px;
+        grid-row: 6;
+        grid-column: 1;
+        grid-column-end: 3;
+    }
+
+}
+
+@media all and (min-width: 992px) {
+    #homeNav {
+        padding: 5px;
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    #archeologieNav {
+        padding: 5px;
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    #backpackNav {
+        padding: 5px;
+        grid-row: 1;
+        grid-column: 3;
+    }
+
+    #bergNav {
+        padding: 5px;
+        grid-row: 1;
+        grid-column: 4;
+    }
+
+    #box1{
+        padding: 5px;
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    #box2{
+        padding: 5px;
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    #box3{
+        padding: 5px;
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    #box4{
+        padding: 5px;
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    #box5{
+        padding: 5px;
+        grid-row: 1;
+        grid-column: 3;
+
+    }
+
+    #box6{
+        padding: 5px;
+        grid-row: 2;
+        grid-column: 3;
+        height: 50%;
+    }
+
+}
