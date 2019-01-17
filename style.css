@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+}
+
+#banner{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+#titleSize{
+    font-size: 36px;
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+#wrapper {
+    max-width: 960px;
+    margin: auto;
+    background: lightgrey;
+    transition: box-shadow .25s;
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.15), 0px 0px 1px 1px rgba(0,0,0,0.20)
+}
+
+nav {
+    text-align: left;
+    font-size: 14px;
+    margin: auto;
+    background-color: #B60000;
+}
+
+#navBar a{
+    color: black;
+    text-decoration: none;
+}
+.navArticle a{
+    color: #D90000;
+    text-decoration: none;
+}
+
+#contentcontainer a{
+    color: black;
+    text-decoration: none;
+}
+
+.articleSub{
+    color: lightgrey;
+    font-size: 12px;
+}
+
+#navcontainer {
+    width: 100%;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    background-color: #B60000;
+    padding: 5px;
+    margin: 10px;
+}
+
+.pagecontent{
+    background-color: white;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.btnstyle{
+    background-color: #D90000;
+    border-color: #D90000;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.btnstyle:hover, .btnstyle:focus {
+    background-color: #B60000;
+    border-color: #B60000;
+}
+
+.nextPage{
+    background-color: white;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    text-align: right;
+}
+
+.previousPage{
+    background-color: white;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.bottomLinks{
+    background-color: white;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+@media all and (min-width: 640px){
+
+}
