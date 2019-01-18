@@ -1,3 +1,4 @@
+/*mobile devices*/
 @media all {
     #homeNav {
         grid-column: 1;
@@ -23,7 +24,7 @@
         padding: 5px;
     }
 }
-
+/*Tablet devices*/
 @media all and (min-width: 768px) {
     #homeNav {
         padding: 5px;
@@ -100,7 +101,7 @@
     }
 
 }
-
+/*Desktop devices*/
 @media all and (min-width: 992px) {
     #homeNav {
         padding: 5px;

@@ -1,0 +1,39 @@
+/*The text below a full-width image*/
+.imgText{
+    text-align: center;
+    color: grey;
+    font-size: 14px;
+    margin-top: 0px;
+}
+/*Applies full-width*/
+.fullSize{
+    display: inline-block;
+    width: 100%;
+}
+/*Separate image style*/
+#imgTeamwork{
+    height: 50%;
+}
+
+#imgBeyond{
+    height: 100%;
+}
+
+#imgTravel{
+    height: 70%;
+}
+
+#imgWildcamping{
+    height: 70%;
+}
+
+#imgPickaxe{
+    display: inline-block;
+    float: right;
+    width: 40%;
+    height: 70%;
+}
+
+#imgDesert{
+    height: 70%;
+}

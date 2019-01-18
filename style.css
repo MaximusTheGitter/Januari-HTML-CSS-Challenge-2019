@@ -1,26 +1,23 @@
-*{
+* {
     box-sizing: border-box;
     font-family: 'Open sans', sans-serif;
 }
 
-#banner{
+/*Logo/banner*/
+#banner {
     text-align: center;
     font-size: 14px;
     margin-top: 0px;
     margin-bottom: 25px;
 }
-#titleSize{
+
+#titleSize {
     font-size: 36px;
     margin-top: 0px;
     margin-bottom: 7px;
 }
-#wrapper {
-    max-width: 960px;
-    padding: 10px;
-    margin: auto;
-    background: lightgrey;
-}
 
+/*Site navigation*/
 nav {
     max-width: 960px;
     width: 100%;
@@ -31,17 +28,32 @@ nav {
     font-size: 14px;
     padding-left: 18px;
     margin: auto;
-    background-color: #B60000;
+    background-color: black;
     transition: box-shadow .25s;
-    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.10)
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.10)
 }
 
-#navBar a{
-    color: black;
+#navcontainer {
+    max-width: 960px;
+    padding: 5px;
+    margin: 10px;
+}
+
+#navBar a {
+    color: white;
     text-decoration: none;
 }
 
-article{
+/*Content section max-width, centering and BG-Color*/
+#wrapper {
+    max-width: 960px;
+    padding: 10px;
+    margin: auto;
+    background-color: lightgrey;
+}
+
+/*Main styling of the page content*/
+article {
     width: 100%;
     display: grid;
     grid-column-gap: 10px;
@@ -49,7 +61,7 @@ article{
 
 }
 
-#contentcontainer a{
+#contentcontainer a {
     width: 100%;
     display: grid;
     grid-column-gap: 10px;
@@ -59,28 +71,22 @@ article{
     text-decoration: none;
 }
 
-.articleSub{
+.articleSub {
     color: lightgrey;
     font-size: 12px;
 }
 
-#navcontainer {
-    background-color: #D90000;
-    padding: 5px;
-    margin: 10px;
-}
-
-.pagecontent{
+.pagecontent {
     background-color: white;
     border-radius: 2px;
     padding: 10px;
     margin: 10px;
     text-decoration: none;
     transition: box-shadow .25s;
-    box-shadow: 0px 0px 1px 3px rgba(0,0,0,0.10)
+    box-shadow: 0px 0px 1px 3px rgba(0, 0, 0, 0.10)
 }
 
-.btnstyle{
+.btnstyle {
     background-color: #D90000;
     border-color: #D90000;
     color: white;
@@ -95,7 +101,7 @@ article{
     border-color: #B60000;
 }
 
-.nextPage{
+.nextPage {
     background-color: white;
     border-radius: 2px;
     padding: 10px;
@@ -103,10 +109,10 @@ article{
     text-decoration: none;
     text-align: right;
     transition: box-shadow .25s;
-    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.10)
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.10)
 }
 
-.previousPage{
+.previousPage {
     background-color: white;
     border-radius: 2px;
     padding: 10px;
@@ -114,23 +120,27 @@ article{
     text-decoration: none;
     text-align: left;
     transition: box-shadow .25s;
-    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.10)
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.10)
 }
 
-.bottomLinks{
+.bottomLinks {
     background-color: white;
     border-radius: 2px;
     padding: 10px;
     margin: 10px;
     text-decoration: none;
     transition: box-shadow .25s;
-    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.10)
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.10)
 }
 
-#box5 a{
+#box5 a {
     color: #B60000;
 }
 
-#box6 a{
+#box6 a {
     color: #B60000;
+}
+
+.textAlign{
+    text-align: justify;
 }
